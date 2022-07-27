@@ -9,11 +9,9 @@ $(window).on('load', function () {
                 $("#records thead").before(`
                     <tbody>
                         <tr>
-                            <th scope="row">` + (i + 1) + `</th>
                             <td>` + element.date + `</td>
                             <td>` + element.price + `</td>
-                            <td>` + element.bucket + `</td>
-                            <td>` + element.details + `</td>
+                            <td>` + element.note + `</td>
                             <td>` + element.thanks + `</td>
                         </tr>
                     </tbody>
