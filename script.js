@@ -11,7 +11,7 @@ $(window).on('load', function () {
                         <tr>
                             <td>` + element.date + `</td>
                             <td>` + (element.price === "" ? '-' : element.price) + `</td>
-                            <td>` + (element.note === "" ? '-' : element.note) + `</td>
+                            <td> <span style="color:`+ (element.ball < 0 ? '#FF4500': 'black' ) +`">` + (element.note === "" ? '-' : element.note) + `</span></td>
                             <td>` + (element.thanks === "" ? '-' : element.thanks) + `</td>
                         </tr>
                     </tbody>
