@@ -24,12 +24,12 @@ badmintons:
     price: 258kr
     bucket: 2
     ball: 12
-    note: Yonex M350 medium
+    note: 2 Buckets of Yonex M350 medium
     thanks: Yue Qiu
     
   - date: 2022/07/21
     price: 258kr
     bucket: 2
-    ball: 12
-    note: Yonex M350 medium
-    thanks: Yue Qiu
+    ball: -1
+    note: 1 ball worn out
+    thanks: 
