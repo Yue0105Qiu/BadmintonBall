@@ -5,14 +5,21 @@ $(window).on('load', function () {
             var numBuckets = 0;
             var numBalls = 0;
             doc.badmintons.forEach((element, i) => {
+
+                // Only show thanks if ball > 0
+                thanks_button = "";
+                if (element.ball > 0) {
+                    thanks_button = `<button type="button" class="btn btn-sm btn-outline-info" data-toggle="popover" title="" data-content="`+ (element.thanks === "" ? '-' : element.thanks)  +`">Thanks</button>`
+                }
+
                 // Update the table
                 $("#records thead").before(`
                     <tbody>
                         <tr>
                             <td>` + element.date + `</td>
-                            <td>` + (element.price === "" ? '-' : element.price) + `</td>
+                            <td>` + (element.price === null ? '-' : element.price) + `</td>
                             <td> <span style="color:`+ (element.ball < 0 ? '#FF4500': 'black' ) +`">` + (element.note === "" ? '-' : element.note) + `</span></td>
-                            <td>` + (element.thanks === "" ? '-' : element.thanks) + `</td>
+                            <td>` + thanks_button + `</td>
                         </tr>
                     </tbody>
                 `);
@@ -29,6 +36,8 @@ $(window).on('load', function () {
 
             $('#buckets').text(numBuckets);
             $('#balls').text(numBalls);
+
+            $('[data-toggle="popover"]').popover()
         });
     } catch (e) {
         console.log(e);
