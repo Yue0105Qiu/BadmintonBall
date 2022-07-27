@@ -12,7 +12,7 @@ $(window).on('load', function () {
                             <td>` + element.date + `</td>
                             <td>` + (element.price === "" ? '-' : element.price) + `</td>
                             <td> <span style="color:`+ (element.ball < 0 ? '#FF4500': 'black' ) +`">` + (element.note === "" ? '-' : element.note) + `</span></td>
-                            <td>` + (element.thanks === "" ? '-' : element.thanks) + `</td>
+                            <td><button type="button" class="btn btn-sm btn-danger" data-toggle="popover" title="" data-content="`+ (element.thanks === "" ? '-' : element.thanks)  +`">Thanks</button></td>
                         </tr>
                     </tbody>
                 `);
@@ -29,6 +29,8 @@ $(window).on('load', function () {
 
             $('#buckets').text(numBuckets);
             $('#balls').text(numBalls);
+
+            $('[data-toggle="popover"]').popover()
         });
     } catch (e) {
         console.log(e);
