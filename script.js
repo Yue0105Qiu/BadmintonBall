@@ -12,7 +12,7 @@ $(window).on('load', function () {
                             <td>` + element.date + `</td>
                             <td>` + (element.price === "" ? '-' : element.price) + `</td>
                             <td> <span style="color:`+ (element.ball < 0 ? '#FF4500': 'black' ) +`">` + (element.note === "" ? '-' : element.note) + `</span></td>
-                            <td><button type="button" class="btn btn-sm btn-danger" data-toggle="popover" title="" data-content="`+ (element.thanks === "" ? '-' : element.thanks)  +`">Thanks</button></td>
+                            <td><button type="button" class="btn btn-sm btn-outline-info" data-toggle="popover" title="" data-content="`+ (element.thanks === "" ? '-' : element.thanks)  +`">Thanks</button></td>
                         </tr>
                     </tbody>
                 `);
