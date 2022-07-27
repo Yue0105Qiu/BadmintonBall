@@ -3,6 +3,7 @@ $(window).on('load', function () {
         $.get('summary.yml', function (result) {
             const doc = jsyaml.load(result);
             var numBuckets = 0;
+            var numBalls = 0;
             doc.badmintons.forEach((element, i) => {
                 // Update the table
                 $("#records thead").before(`
@@ -20,11 +21,13 @@ $(window).on('load', function () {
 
                 // Summary
                 numBuckets = numBuckets + element.bucket;
+                numBalls = numBalls + element.ball;
 
             });
 
             $('#buckets').text(numBuckets);
             $('#balls').text(numBuckets * 6);
+            $('#dateModified').text(element.date);
         });
     } catch (e) {
         console.log(e);
