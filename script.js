@@ -10,22 +10,25 @@ $(window).on('load', function () {
                     <tbody>
                         <tr>
                             <td>` + element.date + `</td>
-                            <td>` + element.price + `</td>
-                            <td>` + element.note + `</td>
-                            <td>` + element.thanks + `</td>
+                            <td>` + (element.price === "" ? '-' : element.price) + `</td>
+                            <td>` + (element.note === "" ? '-' : element.note) + `</td>
+                            <td>` + (element.thanks === "" ? '-' : element.thanks) + `</td>
                         </tr>
                     </tbody>
                 `);
 
                 // Summary
-                numBuckets = numBuckets + element.bucket;
+                numBuckets = numBuckets + (element.bucket === "" ? 0 : element.bucket);
                 numBalls = numBalls + element.ball;
 
+                // Update last modified
+                if (i === doc.badmintons.length - 1) {
+                    $('#dateModified').text(element.date);
+                }
             });
 
             $('#buckets').text(numBuckets);
             $('#balls').text(numBalls);
-            $('#dateModified').text(element.date);
         });
     } catch (e) {
         console.log(e);

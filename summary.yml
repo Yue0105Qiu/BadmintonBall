@@ -1,5 +1,4 @@
 description: |-
-  This file
   This file is for tracking of the badminton balls.
   Examples of entries:
     - date: 2022/07/21
@@ -15,10 +14,7 @@ description: |-
       ball: 
       note: 1 ball worn-out
       thanks:
-      
-      
-      
-      
+
 badmintons:
   - date: 2022/07/21
     price: 258kr
@@ -26,10 +22,10 @@ badmintons:
     ball: 12
     note: 2 Buckets of Yonex M350 medium
     thanks: Yue Qiu
-    
+
   - date: 2022/07/27
-    price:
-    bucket: 
+    price: ''
+    bucket: ''
     ball: -1
     note: 1 ball worn out
-    thanks: 
+    thanks: ''
