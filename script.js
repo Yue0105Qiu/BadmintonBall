@@ -24,7 +24,7 @@ $(window).on('load', function () {
             });
 
             $('#buckets').text(numBuckets);
-            $('#balls').text(numBuckets * 6);
+            $('#balls').text(numBalls);
             $('#dateModified').text(element.date);
         });
     } catch (e) {
