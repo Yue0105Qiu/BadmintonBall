@@ -24,8 +24,8 @@ badmintons:
     thanks: Yue Qiu
 
   - date: 2022/07/27
-    price: ''
-    bucket: ''
+    price: 
+    bucket: 
     ball: -1
     note: 1 ball worn out
-    thanks: ''
+    thanks: 
