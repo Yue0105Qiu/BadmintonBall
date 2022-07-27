@@ -9,7 +9,7 @@ $(window).on('load', function () {
                 // Only show thanks if ball > 0
                 thanks_button = "";
                 if (element.ball > 0) {
-                    thanks_button = `<button type="button" class="btn btn-sm btn-outline-info" data-toggle="popover" title="" data-content="`+ (element.thanks === "" ? '-' : element.thanks)  +`">Thanks</button>`
+                    thanks_button = `<button type="button" class="btn btn-sm btn-outline-info" data-toggle="popover" title="" data-content="`+ (element.thanks === "" ? '-' : element.thanks)  +`">Thanks to</button>`
                 }
 
                 // Update the table
