@@ -17,4 +17,4 @@ jobs:
       - name: yaml-lint
         uses: ibiqlik/action-yamllint@v3
         with:
-          file_or_dir: summary.yaml
+          file_or_dir: summary.yml
