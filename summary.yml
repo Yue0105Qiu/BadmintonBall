@@ -30,6 +30,45 @@ badmintons:
     note: 1 ball wears out
     thanks:
     
+  description: |-
+  This file is for tracking of the badminton balls.
+  Examples of entries:
+    - date: 2022/07/21
+      price: 258kr
+      bucket: 2
+      ball: 12
+      note: 2 Buckets of Yonex M350 medium
+      thanks: Yue Qiu
+   
+    - date: 2022/07/21
+      price: 258kr
+      bucket: 
+      ball: -1
+      note: 1 ball wears out
+      thanks:
+
+badmintons:
+  - date: 2022/07/21
+    price: 258kr
+    bucket: 2
+    ball: 12
+    note: 2 Buckets of Yonex M350 medium
+    thanks: Yue, Li, Chen, Yanmei, Miao, Huaiyu, Chang, Jie, Chi, Shuo, Xiufei, Rongpeng, Jingyuan, Jiatu, Yuzhou, Chang, Hongyue, Ziyi, Bipa, Henry, Changda, 喜欢大眼仔的绿巨人, Jieying, Tristan.
+  
+  - date: 2022/08/21
+    price: 
+    bucket: 
+    ball: -1
+    note: 1 ball wears out
+    thanks:
+    
+    
+  - date: 2022/09/10
+    price: 
+    bucket: 
+    ball: -1
+    note: 1 ball wears out
+    thanks:
     
   - date: 2022/09/24
     price: 
