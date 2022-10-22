@@ -46,3 +46,18 @@ badmintons:
     ball: -2
     note: 2 ball wears out
     thanks:
+    
+  - date: 2022/10/8
+    price:
+    bucket:
+    ball: -1
+    note: 1 ball wears out
+    thanks:
+    
+  - date: 2022/10/15
+    price:
+    bucket:
+    ball: -2
+    note: 2 balls wear out
+    thanks:
+    
