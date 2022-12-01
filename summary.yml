@@ -66,6 +66,5 @@ badmintons:
     bucket:
     ball: 5
     note: 5 unexpected balls
-    thanks: >
-      Some "secret" persons :).
+    thanks: some secret persons :).
     
