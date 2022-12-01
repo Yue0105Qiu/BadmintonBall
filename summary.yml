@@ -44,7 +44,7 @@ badmintons:
     price:
     bucket:
     ball: -2
-    note: 2 ball wears out
+    note: 2 balls wear out
     thanks:
     
   - date: 2022/10/8
@@ -60,4 +60,11 @@ badmintons:
     ball: -2
     note: 2 balls wear out
     thanks:
+    
+   - date: 2022/12/01
+    price:
+    bucket:
+    ball: 5
+    note: 5 unexpected balls
+    thanks: some "secret" persons :)
     
