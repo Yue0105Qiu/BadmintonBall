@@ -72,7 +72,14 @@ badmintons:
     price: 200
     bucket: 2
     ball: 12
-    note: 
+    note: 2 Buckets of Victor NS3000
     thanks: >
       Yue, Dr_Philip, 朱镜远, Miao, Yuzhou, Huaiyu, C.C., Raphael, 满月, TENEBRIS, 知道晚上,
       Alex_学者罗, Tristan, 刘佳, Sean Yang, 喜欢大眼仔的绿巨人.
+      
+  - date: 2023/06/13
+    price:
+    bucket:
+    ball: -11
+    note: 11 balls wear out
+    thanks:
