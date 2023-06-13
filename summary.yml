@@ -68,6 +68,13 @@ badmintons:
     note: 5 unexpected balls
     thanks: some secret persons :).
     
+  - date: 2023/02/16
+    price:
+    bucket:
+    ball: -6
+    note: 6 balls wear out
+    thanks:
+    
   - date: 2023/02/17
     price: 200
     bucket: 2
@@ -76,6 +83,14 @@ badmintons:
     thanks: >
       Yue, Dr_Philip, 朱镜远, Miao, Yuzhou, Huaiyu, C.C., Raphael, 满月, TENEBRIS, 知道晚上,
       Alex_学者罗, Tristan, 刘佳, Sean Yang, 喜欢大眼仔的绿巨人.
+      
+  - date: 2023/04/10
+    price: 
+    bucket: 1
+    ball: 6
+    note: 1 Bucket of Yonex M350
+    thanks: >
+      Miao.
       
   - date: 2023/06/13
     price:
